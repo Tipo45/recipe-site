@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo's Recipe</title>
+    <link rel="stylesheet" href="css folder/bootstrap.min.css">
+    <link rel="stylesheet" href="css folder/index.css">
+</head>
+<body>
+    <header>
+        <!-- Offcanvas Button -->
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-light bg-light fixed-top bg">
+            <div class="container-fluid">
+                <!-- Offcanvas Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvas">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Logo and Icons -->
+                <div>
+                   <a href="#"><box-icon name='heart' type='solid' color='#889288' class="mx-3" id="hearts"></box-icon></a>
+                    <a class="navbar-brand" id="hearts" href="#">Sign In</a>
+                
+                   
+                        <a class="navbar-brand fs-3 ms-3" href="#">Tipo's Recipe</a>
+                    
+                    
+                </div>
+                <!-- Social Media Icons -->
+                <div class="navbar-brand ms-auto">
+                    <span class="mx-3 ath">follow</span>
+                    <a class="mx-1" href="#" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                    <a class="mx-1" href="#" target="_blank"><box-icon name='twitter' type='logo' ></box-icon></a>
+                    <a class="mx-1" href="#" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+                </div>
+                <!-- Search Form -->
+                <form>
+                        <box-icon type="search" name="search" color="dcdbdb"  id="openSearchButton"></box-icon>
+
+                        <div id="searchPopup" class="popup">
+                            <div class="popup-content">
+                                <span id="closePopupButton" class="close-button">&times;</span>
+                                <input type="text" id="searchInput" placeholder="Search...">
+                                <button id="searchSubmitButton">Submit</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+
+    
+    <!-- Offcanvas Content -->
+    <div class="offcanvas offcanvas-start ul-bg" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#my-offcanvas" aria-label="Close"></button>
+        </div>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+        <div class="offcanvas-body ath">
+            
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <!-- Navigation Links -->
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">T's R</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active ms-5 fs-6 text-white agt" href="#">RECIPES & MENUS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-5 fs-6 text-white agt" href="#">EXPERT ADVICE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-5 fs-6 text-white agt" href="#">WHAT TO BUY</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-5 fs-6 text-white agt" href="#">INGREDIENTS</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5 fs-6 text-white agt" href="#">HOLIDAY & EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5 fs-6 text-white agt" href="#">VIDEOS</a>
+            </li>
+                <!-- Add other navigation links here -->
+            </ul>
+           <br>      
+            <section class="socials-item ath">
+                <h4 class="mx-3">Follow Tipo's Recipe!</h4>
+                <div class="socials-link mx-3">
+                    <!-- Social Media Icons -->
+                    <a class="ms-3 mx-1 " href=""><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                    <a class="ms-3 mx-1" href=""><box-icon type='logo' name='twitter'></box-icon> </a>
+                    <a class="ms-3 mx-1" href=""><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+                </div>
+                <br>
+                <span>
+                    <button type="button" class="btn agt fth ms-5">Sign In</button>
+                </span>
+            </section>
+        </div>
+    </div>
+
+    <!-- Add your content here -->
+    <div class="secbod">
+        <div >
+
+          <div class="insecbod"><h2><strong>Find a Recipe</strong></h2></div>
+            <div>
+                <form action="#" class="formsea" id="insecbod" method="get" autocomplete="off">
+             <fieldset>
+                <img src="image/search-bar-8934.svg" width="300px" height="250px
+                " id="openSearchButtons">
+             </fieldset>
+             </form>
+            </div>
+            <div><a href="#" target="_blank" id="insecbod"> Advanced Search<box-icon name='right-arrow' type='solid' color='black' ></box-icon></a></div>
+        </div>
+    </div>
+
+    <div class="batch">
+  <div id="outer">
+    <a href="#"><img src="image/img_004.svg"></a>
+    <div id="inner">
+        <a href="#"><p id="rrcol">Recipe Roundup</p><h3 id="text">Learn How To Cook This In 10 Easy Steps</h3> <hr style="margin: 15px 200px 15px 200px;">
+            <p id="authors">By Chef J</p>
+        </a>
+    </div>
+   </div>
+    </div>
+
+
+
+<div class="contain">
+    <div id="second">
+        <a href="#"><img src="image/img_002.svg"></a>
+        <div id="insecond">
+            <a href="#">
+            <p id="rrcol">Recipe All-Star</p>
+            <span id="text">Another Food Image</span> <hr style="margin: 10px 50px 10px 50px;">
+            <p id="authors">By Steve</p>
+        </a>
+        </div>
+    </div>
+    <div id="second">
+        <a href="#"><img src="image/femoree-SC7R-d27_9E-unsplash.jpg"></a>
+        <div id="insecond">
+            <a href="#">
+                <p id="rrcol">Recipe Roundup</p>
+                <span id="texts">Then Another Food Image</span> <hr style="margin: 10px 50px 10px 50px;">
+                <p id="authors">By Pius</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr style="margin: 0 250px;">
+
+<div class="fourthbod">
+  <div id="TMPR">
+    <a href="#"><img src="image/10877648_4581917.svg"></a>
+    <div id="TBG">
+        <p id="inTBG">THE BIG GUIDE</p>
+    </div>
+  </div>
+</div>
+
+<div class="fifthbod">
+<div class="notes">
+    <h2><a href="#">The Most Popular Recipes on Tipo's Recipe Site Right Now</h2></a> <span>Here's what your fellow Tipo Recipe Site readers are cooking.</span>
+    <p><a href="#">VIEW COMPLETE GUIDE<box-icon name='right-arrow' type='solid' color='black' ></box-icon></a></p>
+  </div>
+
+  <hr style="width: 1px; height: 400px; margin: 0 20px ">
+
+<div class="osoh">
+    <p><a href="#"><img src="image/img_003.svg"><span>It's Not Just Yam. It's Osun Pounded Yam.</span></a></p>
+    <p><a href="#"><img src="image/img_004.svg"><span>This Retro Orange Drink Powder Is the Secret to Better Baked (and Grilled) Wings</span></a></p>
+    <p><a href="#"><img src="image/img_005.svg"><span>Yes, You can (and Should) Eat Fried Potatos for Brunch</span></a></p>
+</div>
+</div>
+
+<div class="all_container"> 
+  <div class="container">
+    <div id="writing">Get our latest recipes and expert right in your inbox</div>
+    <div id="search_wrap">
+       <div class="email_box">
+         <form action="#" method="post">
+          <input type="email" class="input" placeholder="YOUR EMAIL ADDRESS" required>
+           <button type="submit" class="sign_up">SIGN UP</button>
+         </form>
+       </div>
+    </div>
+  </div>
+</div>
+
+<div class="thirdbod">
+<div id="fof">
+       <img src="image/Polaris Bank Logo.svg" width="900px" height="500px" alt="logo">
+    <div id="hof">
+        <a href="#"><p id="pbank">POLARIS BANK!!</p></a>
+        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa saepe animi reiciendis eum. Recusandae hic at cupiditate repudiandae suscipit eos aspernatur facilis accusamus. Ratione dignissimos possimus atque nesciunt rerum?</p>
+        <p id="polbank"><a href="#" target="_blank">View Website <box-icon name='caret-right' color="#fdfdfd"></box-icon></a></p>
+        <div id="gof">
+           <p><strong>Bank With Us Today</strong></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="firfoot">
+     <div class="partners">
+        <br>
+        <h2 style="color: black;">Our Partners</h2>
+        <br>
+        <ul class="partlist">
+            <li><a href="#"><img src="image/Milo Logo.svg" alt=""></a> 
+                <ul>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img src="image/Arla Food Inc. Logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img src="image/Dano Milk Logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="#">View Recipes</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </li>
+            <li><a href=""><img src="image/Milo Logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img src="image/Arla Food Inc. Logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img src="image/Dano Milk Logo.svg" alt=""></a>
+                <ul>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </li>
+        </ul>
+     </div>
+
+<hr style="margin: 0 250px 50px;">
+     <div class="QTT">
+        <div class="ql">
+            <h5>QUICK LINK</h5>
+            <ul>
+                <li><a href="#">Breakfast Recipes</a></li>
+                <li><a href="#">Lunch Recipes</a></li>
+                <li><a href="#">Dinner Recipes</a></li>
+                <li><a href="#">Dessert Recipes</a></li>
+                <li><a href="#">Drink Recipes</a></li>
+                <li><a href="#">Healthy Recipes</a></li>
+                <li><a href="#">Quick and Easy Recipes</a></li>
+            </ul>
+        </div>
+        <hr style="width: 1px; height: 450px; margin: 0 35px 0 150px;">
+        <div class="tbo">
+            <h5>THE BEST OF</h5>
+            <ul>
+                <li><a href="#">New Year's Day Recipes</a></li>
+                <li><a href="#">Valentine's Day Recipes</a></li>
+                <li><a href="#">Easter Recipes</a></li>
+                <li><a href="#">Democracy Day Recipes</a></li>
+                <li><a href="#">Birthday Recipes</a></li>
+                <li><a href="#">Independence Recipes</a></li>
+                <li><a href="#">Thanksgiving Recipes</a></li>
+            </ul>
+        </div>
+        <hr style="width: 1px; height: 450px; margin: 0 35px 0 150px;">
+        <div class="tsc">
+            <h5>TIPO'S RECIPES CLASSICS</h5>
+            <ul>
+                <li><a href="#">Beef Recipes</a></li>
+                <li><a href="#">Chicken Recipes</a></li>
+                <li><a href="#">Seafood Recipes</a></li>
+                <li><a href="#">Spag Recipes</a></li>
+                <li><a href="#">Salad Recipes</a></li>
+                <li><a href="#">Pork Recipes</a></li>
+                <li><a href="#">Fish Recipes</a></li>
+            </ul>
+        </div>
+     </div>
+
+    </div>
+    <div class="secfoot">
+        <div class="links">
+            <h3 id="head5" ><a href="#" class="tr">Tipo's Recipe</a></h3>
+            <ul>
+                <li><a href="#"><box-icon name='facebook-circle' type='logo' ></box-icon></a></li>
+                <li><a href="#"><box-icon name='twitter' type='logo' ></box-icon></a></li>
+                <li><a href="#"><box-icon name='gmail' type='logo' ></box-icon></a></li>
+                <li><a href="#"><box-icon name='telegram' type='logo' ></box-icon></a></li>
+                <li><a href="#"><box-icon name='whatsapp' type='logo' ></box-icon></a></li>
+            </ul>
+        </div>
+        <div class="sitemap">
+            <ul>
+                <li><h5 id="head5"><a href="#">Site Map</a></h5></li>
+                <li><a href="#">Recipes & Menus</a></li>
+                <li><a href="#">Expert Advice</a></li>
+                <li><a href="#">What to Buy</a></li>
+                <li><a href="#">Ingredients</a></li>
+                <li><a href="#">Holiday & Events</a></li>
+                <li><a href="#">Video</a></li>
+            </ul>
+        </div>
+        <div class="sitemap">
+            <ul>
+                <li><h5 id="head5">Helpful Links</h5></li>
+                <li><a href="#">Subscription FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Masthead</a></li>
+                <li><a href="#">Accessibility Help</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Press Center</a></li>
+                <li><a href="#">Newsletters</a></li>
+            </ul>
+        </div>
+        <div class="sitemap">
+            <ul>
+                <li><h5 id="head5">Food Innovation Group</h5></li>
+                <li><a href="#">The Tipo's Recipe App</a></li>
+                <li><a href="#">Enjoy Your Meal</a></li>
+                <li><a href="#">Tipo Recipes</a></li>
+                <li><a href="#">Nigerian Jollof Rice</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="thirfoot">
+                <div class="tdw">
+                    <div class="tdrs"><h4 style="color: gray;">TIPO DEVELOPERS </h4>
+                    </div>
+                    <div class="tdrs">
+                    <button type="button" class="btn btn-secondary dropdown-toggle covered-button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tipo Websites Developers
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Tipo's Recipe</a></li>
+                        <li><a href="#">T-Coin</a></li>
+                        <li><a href="#">Tees Clothing</a></li>
+                        <li><a href="#">TTs</a></li>
+                      </ul>
+                      <div class="tdrs">
+                        <ul>
+                            <li><a href="#" target="_blank">Careers</a></li>
+                            <li><a href="#" target="_blank">Tipo's Developers Store</a></li>
+                            <li><a href="#" target="_blank">Reprints/Permission</a></li>
+                        </ul>
+                      </div>
+                      </div>
+                </div>
+            <div class="cook">
+                <button class="covered-button"><img src="image/settings.svg" alt=""> Cookies Settings</button>
+            </div>
+            <div class="copyright">
+            <p>© copyright 2023 Tipo Developers. All rights reserved. <p>Use of and/or registration of this site constitutes of our <a href="#" target="_blank">User Agreement</a> (updated as of 18/03/2021) and <a href="#" target="_blank">Privacy Policy and Cookie Statement</a> (updated as of 18/03/2021). <a href="#" target="_blank">Your Nigerian Privacy Rights</a>. <p>The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Tipo developers.</p></p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Include scripts -->
+    <script src="js folder/index.js"></script>
+    <script src="js folder/index1.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js folder/bootstrap.min.js"></script>
+</body>
+</html>
