@@ -6,14 +6,6 @@ li {
     list-style: none;
 }
 
-.ath {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.navbar-toggler-icon:hover {
-    color: black !important;
-}
-
 .offcanvas {
     width: 320px;
 }
@@ -22,8 +14,32 @@ li {
     color: #484545;
 }
 
-#hearts:hover {
-    color: black !important;
+.heart {
+    margin: 0 10px;
+}
+
+.heart:hover {
+    color: black;
+}
+
+.topbar {
+    color: gray;
+    font-size: 19px;
+    margin: 0 10px;
+}
+
+.topbar:hover {
+    color: black;
+}
+
+.tipologo {
+    color: black;
+    font-size: 25px;
+    margin: 0 0 0 520px;
+}
+
+.tipologo:hover {
+    color: black;
 }
 
 /* Hide the popup by default */
@@ -251,41 +267,112 @@ h1 {
     text-decoration: none;
 }
 
+#recround {
+    color: gray;
+}
+
 #rrcol {
     color: gray;
 }
 
 #text {
     margin: 0 25px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 #text:hover {
     text-decoration: underline;
 }
 
-#texts {
-    margin: 0 5px;
+#afi {
+    margin: 0 0 0 25px;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+#texts {
+    margin: 0 0 0 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
 #texts:hover {
     text-decoration: underline;
 }
 
-#authors {
+.afidivider {
+    margin: 10px 50px 10px 50px
+}
+
+#authorsj {
     color: red;
+}
+
+#authorsp {
+    color: red;
+}
+
+#authorss {
+    color: red;
+}
+
+.one {
+    margin: 15px 200px 15px 200px
+}
+
+.batchdivider {
+    display: none;
 }
 
 .contain {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     height: 200px;
-    margin-top: 200px;
-    margin-bottom: 150px;
+    margin: 200px 170px 50px 350px;
+}
+
+
+#second {
+   margin: 0 0 700px 0;
+   position: relative;
+}
+
+#second img {
+    margin: 0 30px 0  0;
+    width: 400px;
+    height: 300px;
+}
+
+.seconddivider {
+    display: none;
+}
+
+#insecond {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 -300px -100px;
+    background-color: white;
+}
+
+#insecond a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.containdivider {
+    margin: 250px 250px 0 250px;
 }
 
 .fourthbod {
     display: flex;
     justify-content: center;
+    margin: 12px;
 }
 
 #TMPR {
@@ -311,20 +398,22 @@ h1 {
 #inTBG {
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .fifthbod {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     margin: 0 295px;
 }
 
-.notes h2 a {
-    font-size: 47px;
+.notes a span {
+    font-size: 40px;
+    font-weight: bold;
     color: black;
 }
 
-.notes h2 a:hover {
+.notes a span:hover {
     text-decoration: underline;
 }
 
@@ -336,12 +425,15 @@ h1 {
     text-decoration: underline;
 }
 
-#nolinks {
-    margin-bottom: 50px;
+.fifthbod hr {
+    width: 1px; 
+    height: 400px;
+    margin: 0 20px;
 }
 
 .osoh p a {
     color: black;
+    font-weight: bold;
 }
 
 .osoh p a:hover {
@@ -354,25 +446,23 @@ h1 {
 
 .all_container {
     background-color: red;
-    height: 80px;
+    height: 120px;
     margin-top: 30px;
-}
-
-#writing {
-    margin-right: 80px;
-    color: white;
-    font-size: 18px;
 }
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 300px;
+    flex-direction: row;
+}
+
+#writing {
+    margin: 30px 30px 0 150px;
+    color: white;
+    font-size: 22px;
 }
 
 .email_box input {
-    margin-top: 15px;
+    margin-top: 30px;
     border: 0;
     outline: none;
     padding: 10px 20px;
@@ -381,7 +471,7 @@ h1 {
     font-size: 18px;
 }
 
-.email_box form button {
+.email_box button {
     background: black;
     color: white;
     border: none;
@@ -389,35 +479,6 @@ h1 {
     height: 50px;
     width: 80px;
     font-size: 18px;
-}
-
-#second {
-    display: flex;
-    justify-content: center;
-    display: inline-block;
-   margin: 0 20px 20px 0;
-   position: relative;
-}
-
-#second img {
-    width: 400px;
-    height: 300px;
-}
-
-#insecond {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 50%;
-    bottom: 0;
-    margin: 0 0 -30px -100px;
-    background-color: white;
-}
-
-#insecond a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
 }
 
 .thirdbod {
@@ -428,6 +489,11 @@ h1 {
 
 #fof {
     position: relative;
+}
+
+#fof img {
+    width: 900px;
+    height: 500px;
 }
 
 #hof {
@@ -466,6 +532,7 @@ h1 {
 }
 
 #polbank a:hover {
+    color: red;
     text-decoration: underline;
 }
 
@@ -475,7 +542,7 @@ h1 {
     height: 30px;
     left: 50%;
     bottom: 0;
-    margin: 0 0 290px -100px;
+    margin: 0 0 390px 110px;
     background: white;
     color: purple;
     text-align: center;
@@ -632,6 +699,10 @@ h5 {
     display: flex;
 }
 
+.tdrs h4 {
+    color: gray;
+}
+
 .tdrs ul li a {
     text-decoration: none;
     color: gray;
@@ -678,4 +749,295 @@ h5 {
 .tiplinks ul li a {
     text-decoration: none;
     color: gray;
+}
+
+@media (max-width: 600px) {
+    
+    .heart {
+        margin: 0 80px 0 0;
+    }
+
+    .tipologo {
+        margin: 0 100px 0 0;
+    }
+
+    .topbar {
+        display: none;
+    }
+
+    #outer img {
+        width: 450px;
+    }
+
+    #inner {
+        margin: 0 0 20px -200px;
+    }
+
+    #rrcol {
+        margin: 20px 0 10px -100px;
+        font-size: 17px;
+    }
+
+    #texts {
+        margin: 0 0 0 40px;
+        font-size: 18px;
+    }
+
+    .one {
+        display: none;
+    }
+
+    #authorsj {
+        margin: 10px 0 0 -95px;
+    }
+
+    .batchdivider {
+        display: block;
+        margin: 0 20px;
+    }
+
+    .contain {
+        flex-direction: column;
+        margin: 30px 0 0 10px;
+    }
+
+    #second {
+        margin: 0 0 80px 0;
+    }
+
+    #second img {
+        margin: 0 0 0  0;
+        width: 200px;
+        height: 150px;
+    }
+
+    #insecond {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50%;
+        bottom: 0;
+        margin: 0 0 125px -10px;
+        background-color: white;
+    }
+
+    #afi {
+        margin: 0 15px 20px 0;
+    }
+
+    .afidivider {
+        display: none;
+    }
+
+    #authorss {
+        margin: 10px 140px 0 0;
+    }
+
+    #recround {
+        margin: 20px 0 10px -100px;
+        font-size: 17px;
+    }
+
+    #texts {
+        font-size: 18px;
+        margin: 0 0 0 -10px;
+    }
+
+    #authorsp {
+        margin: 10px 150px 0 0;
+    }
+
+    .containdivider {
+        margin: 0 20px 0 0;
+    }
+
+    .fourthbod {
+        margin: 150px 0 0 0 ;
+    }
+
+    #TMPR img {
+        width: 600px;
+        height: 500px;
+        margin: 150px 0 20px 0;
+    }
+
+    #TBG {
+        width: 200px;
+        height: 25px;
+        left: 50%;
+        bottom: 0;
+        margin: 0 0 440px -90px;
+    }
+
+    #inTBG {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .fifthbod {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    .notes a span {
+        margin: 0 0 0 60px;
+        font-size: 18px;
+    }
+
+    .notes p a {
+        margin: 10px 120px;
+    }
+
+    #notlink {
+        display: none;
+    }
+
+    .fifthbod hr {
+        width: 100px;
+        height: 1px;
+        margin: 0 190px;
+    }
+
+    .osoh {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 10px 0 20px;
+    }
+
+    .osoh p a img {
+        display: none;
+    }
+
+    .osoh p a {
+        margin: 0 0 20px 0;
+    }
+
+    .all_container {
+        height: 250px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #writing {
+        margin: 65px 0 2px 18px;
+        font-size: 19px;
+    }
+
+    .email_box {
+        margin: 10px 10px 0 100px;
+    }
+
+    .email_box input {
+        height: 40px;
+        width: 200px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    .email_box button {
+        height: 40px;
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .followlinks {
+        display: none;
+    }
+
+    #fof img {
+        width: 450px;
+        height: 290px;
+    }
+     
+    #gof {
+        position: absolute;
+        width: 200px;
+        height: 30px;
+        left: 50%;
+        bottom: 0;
+        margin: 0 0 -10px -90px;
+        background: white;
+        color: purple;
+        text-align: center;
+    }
+
+    #hof {
+        position: absolute;
+        width: 400px;
+        height: 150px;
+        left: 50%;
+        bottom: 0;
+        margin: 0 0 -200px -130px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #pbank {
+        margin: 0;
+    }
+
+    #polbank a {
+        color: black;
+        font-size: 12px;
+    }
+
+    .firfoot {
+        display: none;
+    }
+
+    .secfoot {
+        height: 200px;
+        margin-top: 250px;
+    }
+
+    .links h3 {
+        margin: 0 2px 15px -250px;
+        font-size: 24px;
+    }
+
+    .links ul {
+        margin: 0 0 10px -280px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .links li {
+        margin: 0 10px;
+    }
+
+    .sitemap {
+        display: none;
+    }
+
+    .thirfoot {
+        height: 450px;
+    }
+    .tdrs h4 {
+        margin: 0 2px 10px -280px;
+    }
+
+    .tdrs button {
+        margin: 50px 0 0 -310px;
+    }
+
+    .tdrs ul {
+        display: none;
+    }
+
+    .copyright p {
+        font-size: 15px;
+        margin: 0 20px;
+    }
+
+    }
+
+@media (max-width: 768px) {
 }
