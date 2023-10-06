@@ -752,6 +752,7 @@ h5 {
 }
 
 @media (max-width: 600px) {
+
     
     .heart {
         margin: 0 80px 0 0;
@@ -778,6 +779,10 @@ h5 {
         font-size: 17px;
     }
 
+    #text {
+        margin: 0 0 0 10px;
+    }
+
     #texts {
         margin: 0 0 0 40px;
         font-size: 18px;
@@ -788,7 +793,7 @@ h5 {
     }
 
     #authorsj {
-        margin: 10px 0 0 -95px;
+        margin: 10px 100px 0 0;
     }
 
     .batchdivider {
@@ -858,7 +863,7 @@ h5 {
     #TMPR img {
         width: 600px;
         height: 500px;
-        margin: 150px 0 20px 0;
+        margin: 150px 0 20px 30px;
     }
 
     #TBG {
@@ -866,7 +871,7 @@ h5 {
         height: 25px;
         left: 50%;
         bottom: 0;
-        margin: 0 0 440px -90px;
+        margin: 0 0 440px -80px;
     }
 
     #inTBG {
@@ -881,7 +886,7 @@ h5 {
     }
     
     .notes a span {
-        margin: 0 0 0 60px;
+        margin: 0 0 0 30px;
         font-size: 18px;
     }
 
@@ -915,6 +920,7 @@ h5 {
     }
 
     .all_container {
+        width: 600px;
         height: 250px;
     }
 
@@ -924,25 +930,25 @@ h5 {
     }
 
     #writing {
-        margin: 65px 0 2px 18px;
+        margin: 65px 0 2px 60px;
         font-size: 19px;
     }
 
     .email_box {
-        margin: 10px 10px 0 100px;
+        margin: 10px 10px 0 150px;
     }
 
     .email_box input {
         height: 40px;
-        width: 200px;
-        font-size: 14px;
-        padding: 0 15px;
+        width: 150px;
+        font-size: 12px;
+        padding: 0 8px;
     }
     
     .email_box button {
         height: 40px;
         width: 80px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .followlinks {
@@ -951,7 +957,8 @@ h5 {
 
     #fof img {
         width: 450px;
-        height: 290px;
+        height: 290px; 
+        margin: 0 0 0 30px;
     }
      
     #gof {
@@ -960,7 +967,7 @@ h5 {
         height: 30px;
         left: 50%;
         bottom: 0;
-        margin: 0 0 -10px -90px;
+        margin: 0 0 -10px -80px;
         background: white;
         color: purple;
         text-align: center;
@@ -994,6 +1001,7 @@ h5 {
     }
 
     .secfoot {
+        width: 600px;
         height: 200px;
         margin-top: 250px;
     }
@@ -1018,8 +1026,10 @@ h5 {
     }
 
     .thirfoot {
+        width: 600px;
         height: 450px;
     }
+
     .tdrs h4 {
         margin: 0 2px 10px -280px;
     }
@@ -1034,10 +1044,13 @@ h5 {
 
     .copyright p {
         font-size: 15px;
-        margin: 0 20px;
+        margin: 0 30px 0 40px;
     }
 
     }
 
 @media (max-width: 768px) {
+}
+body {
+    overflow-x: hidden;
 }
