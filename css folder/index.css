@@ -812,7 +812,7 @@ h5 {
 
     #second img {
         margin: 0 0 0  0;
-        width: 200px;
+        width: 220px;
         height: 150px;
     }
 
@@ -822,7 +822,7 @@ h5 {
         height: 50px;
         left: 50%;
         bottom: 0;
-        margin: 0 0 125px -10px;
+        margin: 0 0 125px 30px;
         background-color: white;
     }
 
