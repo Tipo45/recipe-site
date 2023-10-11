@@ -117,14 +117,16 @@ li {
 .secbod { 
     margin-top: 50px;
     height: 500px;
-    background-image: url(../image/img_002.svg);
+    background-image: url(../image/display3-photo.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.secbod h2 {
+.secbod p {
     margin: 100px 0 0 0;
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 .hinsecbod {
@@ -233,8 +235,7 @@ h1 {
 .batch {
     display: flex;
     justify-content: center;
-    margin-bottom: 70px;
-    margin-top: 10px;
+    margin: 70px 0 200px 0;
 }
 
 #outer {
@@ -243,8 +244,8 @@ h1 {
 
 #outer img {
     margin: 50px 0 0 0;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 600px;
 }
 
 #inner {
@@ -268,10 +269,17 @@ h1 {
 }
 
 #recround {
+    margin-top: 20px;
     color: gray;
 }
 
 #rrcol {
+    margin-top: 20px;
+    color: gray;
+}
+
+#rround {
+    margin-top: 20px;
     color: gray;
 }
 
@@ -286,14 +294,14 @@ h1 {
 }
 
 #afi {
-    margin: 0 0 0 25px;
-    font-size: 18px;
+    margin: 0 0 0 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 #texts {
-    margin: 0 0 0 25px;
-    font-size: 18px;
+    margin: 0 0 0 15px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
@@ -352,10 +360,10 @@ h1 {
 #insecond {
     position: absolute;
     width: 200px;
-    height: 50px;
+    height: 150px;
     left: 50%;
     bottom: 0;
-    margin: 0 0 -300px -100px;
+    margin: 0 0 -400px -100px;
     background-color: white;
 }
 
@@ -751,7 +759,7 @@ h5 {
     color: gray;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     
     .heart {
@@ -767,20 +775,23 @@ h5 {
     }
 
     #outer img {
-        width: 450px;
+        width: 400px;
     }
 
     #inner {
-        margin: 0 0 20px -200px;
+        margin: 0 0 0 -170px;
+        width: 350px;
+        height: 130px;
     }
 
     #rrcol {
-        margin: 20px 0 10px -100px;
-        font-size: 17px;
+        margin: 20px 0 10px -10px;
+        font-size: 16px;
     }
 
     #text {
-        margin: 0 0 0 10px;
+        font-size: 15px;
+        margin: 0 0 0 30px;
     }
 
     #texts {
@@ -793,7 +804,7 @@ h5 {
     }
 
     #authorsj {
-        margin: 10px 100px 0 0;
+        margin: 10px 10px 0 0;
     }
 
     .batchdivider {
@@ -828,6 +839,7 @@ h5 {
 
     #afi {
         margin: 0 15px 20px 0;
+        font-size: 15px;
     }
 
     .afidivider {
@@ -838,13 +850,18 @@ h5 {
         margin: 10px 140px 0 0;
     }
 
+    #rround {
+        margin: 20px 0 10px -100px;
+        font-size: 15px;
+    }
+
     #recround {
         margin: 20px 0 10px -100px;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     #texts {
-        font-size: 18px;
+        font-size: 15px;
         margin: 0 0 0 -10px;
     }
 
