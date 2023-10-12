@@ -803,6 +803,9 @@ h5 {
         display: none;
     }
 
+    .batch {
+        margin: 100px 200px;
+    }
     #authorsj {
         margin: 10px 10px 0 0;
     }
@@ -874,7 +877,7 @@ h5 {
     }
 
     .fourthbod {
-        margin: 150px 0 0 0 ;
+        margin: 150px 200px 0 200px;
     }
 
     #TMPR img {
@@ -972,10 +975,14 @@ h5 {
         display: none;
     }
 
+    .thirdbod {
+        margin: 50px 200px;
+    }
+
     #fof img {
         width: 450px;
         height: 290px; 
-        margin: 0 0 0 30px;
+        
     }
      
     #gof {
