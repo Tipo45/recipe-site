@@ -761,6 +761,14 @@ h5 {
 
 @media screen and (max-width: 768px) {
 
+    .secbod { 
+        margin-top: 50px;
+        height: 250px;
+        background-image: url(../image/display3-photo.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
     
     .heart {
         margin: 0 80px 0 0;
@@ -1075,6 +1083,7 @@ h5 {
 
 @media (max-width: 768px) {
 }
+
 body {
     overflow-x: hidden;
 }
