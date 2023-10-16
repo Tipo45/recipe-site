@@ -117,7 +117,7 @@ li {
 .secbod { 
     margin-top: 50px;
     height: 500px;
-    background-image: url(../image/display3-photo.jpg);
+    background-image: url(../image/display3-photo.svg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -232,20 +232,22 @@ h1 {
     color: white;
 }
 
+.container {
+    margin: 70px 0 200px 0;
+}
+
 .batch {
     display: flex;
     justify-content: center;
-    margin: 70px 0 200px 0;
 }
 
 #outer {
     position: relative;
 }
 
-#outer img {
-    margin: 50px 0 0 0;
-    height: 400px;
-    width: 600px;
+#outer a img {
+    height: 700px;
+    width: 800px;
 }
 
 #inner {
@@ -299,6 +301,10 @@ h1 {
     font-weight: bold;
 }
 
+#afi:hover {
+    text-decoration: underline;
+}
+
 #texts {
     margin: 0 0 0 15px;
     font-size: 16px;
@@ -338,16 +344,26 @@ h1 {
     display: flex;
     flex-direction: row;
     height: 200px;
-    margin: 200px 170px 50px 350px;
+    margin: 200px 0 50px 120px;
 }
 
-
-#second {
+.friedrice {
    margin: 0 0 700px 0;
    position: relative;
 }
 
-#second img {
+.friedrice img {
+    margin: 0 30px 0  0;
+    width: 400px;
+    height: 300px;
+}
+
+.jollofrice {
+    margin: 0 0 700px 0;
+    position: relative;
+ }
+
+.jollofrice img {
     margin: 0 30px 0  0;
     width: 400px;
     height: 300px;
@@ -377,10 +393,14 @@ h1 {
     margin: 250px 250px 0 250px;
 }
 
+.container-lg {
+    margin: 100px 0 0 0;
+}
+
 .fourthbod {
     display: flex;
     justify-content: center;
-    margin: 12px;
+    margin-right: 400px;
 }
 
 #TMPR {
@@ -409,10 +429,13 @@ h1 {
     font-weight: bold;
 }
 
+.container-lg {
+    margin: 0 295px;
+}
+
 .fifthbod {
     display: flex;
     flex-direction: row;
-    margin: 0 295px;
 }
 
 .notes a span {
@@ -458,7 +481,7 @@ h1 {
     margin-top: 30px;
 }
 
-.container-sm {
+.container-xxl {
     display: flex;
     flex-direction: row;
 }
@@ -489,10 +512,13 @@ h1 {
     font-size: 18px;
 }
 
+.container-sm {
+    margin-top: 40px;
+}
+
 .thirdbod {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
 }
 
 #fof {
@@ -759,327 +785,269 @@ h5 {
     color: gray;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
-    .secbod { 
-        background-image: url(../image/display3-photo.jpg);
-        background-position: center;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .heart {
-        margin: 0 80px 0 0;
-    }
+.tipologo {
+    font-size: 20px;
+    margin: 0 90px;
+}
 
-    .tipologo {
-        margin: 0 100px 0 0;
-    }
+.topbar {
+    margin: 0;
+}
 
-    .topbar {
-        display: none;
-    }
+.container {
+    margin: 0 0 70px 0;
+}
 
-    #outer img {
-        width: 400px;
-    }
+#outer a img {
+    width: 400px;
+}
 
-    #inner {
-        margin: 0 0 0 -170px;
-        width: 350px;
-        height: 130px;
-    }
+#inner {
+    height: 120px;
+    width: 300px;
+    margin: 0 0 0 -150px;
+}
 
-    #rrcol {
-        margin: 20px 0 10px -10px;
-        font-size: 16px;
-    }
+#rrcol{
+    font-size: 15px;
+}
 
-    #text {
-        font-size: 15px;
-        margin: 0 0 0 30px;
-    }
+#text{
+    font-size: 15px;
+    margin: 10px 0 10px 7px;
+}
 
-    #texts {
-        margin: 0 0 0 40px;
-        font-size: 18px;
-    }
+#authorsj {
+    font-size: 15px;
+    margin-top: 10px;
+}
 
-    .one {
-        display: none;
-    }
+.container-md {
+    margin: 50px 0 0 0;
+}
 
-    .batch {
-        margin: 100px 200px;
-    }
-    #authorsj {
-        margin: 10px 10px 0 0;
-    }
+.contain {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 0 0 0 0;
+}
 
-    .batchdivider {
-        display: block;
-        margin: 0 20px;
-    }
+.friedrice {
+    margin: 0;
+}
 
-    .contain {
-        flex-direction: column;
-        margin: 30px 0 0 10px;
-    }
+.friedrice img {
+    margin: 0 30px 0  0;
+    width: 200px;
+    height: 200px;
+}
 
-    #second {
-        margin: 0 0 80px 0;
-    }
+.jollofrice {
+    margin: 0;
+}
 
-    #second img {
-        margin: 0 0 0  0;
-        width: 220px;
-        height: 150px;
-    }
+.jollofrice img {
+    margin: 0 30px 0  0;
+    width: 200px;
+    height: 200px;
+}
 
-    #insecond {
-        position: absolute;
-        width: 200px;
-        height: 50px;
-        left: 50%;
-        bottom: 0;
-        margin: 0 0 125px 30px;
-        background-color: white;
-    }
+#insecond {
+    position: absolute;
+    width: 190px;
+    height: 120px;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 40px -5px;
+    background-color: white;
+}
 
-    #afi {
-        margin: 0 15px 20px 0;
-        font-size: 15px;
-    }
+.container-lg {
+    margin: 0 0 0 0;
+}
 
-    .afidivider {
-        display: none;
-    }
-
-    #authorss {
-        margin: 10px 140px 0 0;
-    }
-
-    #rround {
-        margin: 20px 0 10px -100px;
-        font-size: 15px;
-    }
-
-    #recround {
-        margin: 20px 0 10px -100px;
-        font-size: 15px;
-    }
-
-    #texts {
-        font-size: 15px;
-        margin: 0 0 0 -10px;
-    }
-
-    #authorsp {
-        margin: 10px 150px 0 0;
-    }
-
-    .containdivider {
-        margin: 0 20px 0 0;
-    }
-
-    .fourthbod {
-        margin: 150px 200px 0 200px;
-    }
-
-    #TMPR img {
-        width: 600px;
-        height: 500px;
-        margin: 150px 0 20px 30px;
-    }
-
-    #TBG {
-        width: 200px;
-        height: 25px;
-        left: 50%;
-        bottom: 0;
-        margin: 0 0 440px -80px;
-    }
-
-    #inTBG {
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .fifthbod {
+.fourthbod {
         display: flex;
-        flex-direction: column;
-        margin: 0 20px;
-    }
-    
-    .notes a span {
-        margin: 0 0 0 30px;
-        font-size: 18px;
-    }
-
-    .notes p a {
-        margin: 10px 120px;
-    }
-
-    #notlink {
-        display: none;
-    }
-
-    .fifthbod hr {
-        width: 100px;
-        height: 1px;
-        margin: 0 190px;
-    }
-
-    .osoh {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        margin: 20px 10px 0 20px;
-    }
+        margin-right: 10px;
+}
 
-    .osoh p a img {
-        display: none;
-    }
+#TMPR img {
+    width: 500px;
+    height: 350px;
+}
 
-    .osoh p a {
-        margin: 0 0 20px 0;
-    }
+#TBG {
+    margin: 0 0 315px -100px;
+}
 
-    .all_container {
-        width: 600px;
-        height: 250px;
-    }
+#inTBG {
+    margin-top: 5px;
+    font-size: 15px;
+}
 
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
+.container-lg {
+    margin: 0;
+}
 
-    #writing {
-        margin: 65px 0 2px 60px;
-        font-size: 19px;
-    }
+.fifthbod {
+    flex-direction: column;
+}
 
-    .email_box {
-        margin: 10px 10px 0 150px;
-    }
+.notes a span {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
 
-    .email_box input {
-        height: 40px;
-        width: 150px;
-        font-size: 12px;
-        padding: 0 8px;
-    }
-    
-    .email_box button {
-        height: 40px;
-        width: 80px;
-        font-size: 12px;
-    }
+.all_container {
+    height: 200px;
+}
 
-    .followlinks {
-        display: none;
-    }
+.container-xxl {
+    flex-direction: column;
+}
 
-    .thirdbod {
-        margin: 50px 200px;
-    }
+#writing {
+    font-size: 20px;
+}
 
-    #fof img {
-        width: 450px;
-        height: 290px; 
-        
-    }
-     
-    #gof {
-        position: absolute;
-        width: 200px;
-        height: 30px;
-        left: 50%;
-        bottom: 0;
-        margin: 0 0 -10px -80px;
-        background: white;
-        color: purple;
-        text-align: center;
-    }
+.email_box {
+    margin-left: 130px;
+}
 
-    #hof {
-        position: absolute;
-        width: 400px;
-        height: 150px;
-        left: 50%;
-        bottom: 0;
-        margin: 0 0 -200px -130px;
-        background-color: white;
-        color: black;
-        font-size: 12px;
-        width: 300px;
-        height: 200px;
-    }
+.email_box form input {
+    width: 180px;
+    font-size: 13px;
+}
 
-    #pbank {
-        margin: 0;
-    }
+.email_box form button {
+    font-size: 15px;
+}
 
-    #polbank a {
-        color: black;
-        font-size: 12px;
-    }
+.container-sm {
+    margin-top: 50px;
+}
 
-    .firfoot {
-        display: none;
-    }
+#fof img {
+    width: 520px;
+}
 
-    .secfoot {
-        width: 600px;
-        height: 200px;
-        margin-top: 250px;
-    }
+#gof {
+    margin-bottom: -10px;
+    margin-left: -90px;
+}
 
-    .links h3 {
-        margin: 0 2px 15px -250px;
-        font-size: 24px;
-    }
+#hof {
+    margin-bottom: -320px;
+    margin-left: -200px;
+    color: black;
+    background: white;
+}
 
-    .links ul {
-        margin: 0 0 10px -280px;
-        display: flex;
-        flex-direction: row;
-    }
+#pbank {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
 
-    .links li {
-        margin: 0 10px;
-    }
+#polbank {
+    margin-left: 20px;
+}
 
-    .sitemap {
-        display: none;
-    }
+#polbank a {
+    color: black;
+    font-size: 20px;
+}
 
-    .thirfoot {
-        width: 600px;
-        height: 450px;
-    }
 
-    .tdrs h4 {
-        margin: 0 2px 10px -280px;
-    }
+.secfoot {
+    width: 600px;
+    height: 200px;
+    margin-top: 350px;
+}
 
-    .tdrs button {
-        margin: 50px 0 0 -310px;
-    }
+.links h3 {
+    margin: 0 2px 15px -250px;
+    font-size: 24px;
+}
 
-    .tdrs ul {
-        display: none;
-    }
+.links ul {
+    margin: 0 0 10px -280px;
+    display: flex;
+    flex-direction: row;
+}
 
-    .copyright p {
-        font-size: 15px;
-        margin: 0 30px 0 40px;
-    }
+.links li {
+    margin: 0 10px;
+}
 
-    }
+.sitemap {
+    display: none;
+}
 
-@media (max-width: 768px) {
+.thirfoot {
+    width: 600px;
+    height: 450px;
+}
+
+.tdrs h4 {
+    margin: 0 2px 10px -280px;
+}
+
+.tdrs button {
+    margin: 50px 0 0 -310px;
+}
+
+.copyright p {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 110px;
+}
+
+.batchdivider {
+    display: block;
+}
+
+.fifthbod hr {
+    display: none;
+}
+
+.osoh p a img {
+    display: none;
+}
+
+.one {
+    display: none;
+}
+
+.topbar {
+    display: none;
+}
+
+.afidivider {
+    display: none;
+}
+
+#notlink {
+    display: none;
+}
+
+.followlinks {
+    display: none;
+}
+
+.firfoot {
+    display: none;
+}
+
+.tdrs ul {
+    display: none;
+}
+
 }
 
 body {
