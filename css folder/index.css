@@ -388,7 +388,7 @@ h1 {
 }
 
 .containdivider {
-    margin: 250px 250px 0 250px;
+    margin: 20px 250px 30px 250px;
 }
 
 .container-lg {
@@ -646,16 +646,6 @@ footer {
     text-decoration: underline;
 }
 
-#head5 {
-    color: white;
-}
-
-.tr {
-    margin-bottom: 20px;
-    text-decoration: none;
-    color: white;
-}
-
 .tr:hover {
     color: white;
 }
@@ -696,6 +686,11 @@ footer {
     margin-top: 40px;
 }
 
+.links h3 a {
+    font-size: 26px;
+    color: white;
+}
+
 .links ul li {
     list-style: none;
     display: inline-block;
@@ -709,6 +704,10 @@ footer {
 
 h5 {
     margin-bottom: 20px;
+}
+
+#head5 {
+    color: white;
 }
 
 .thirfoot {
@@ -860,6 +859,344 @@ h5 {
 
 .drop .items a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 375px) {
+    
+.heart {
+    margin-left: 0;
+}
+
+.tipologo {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#openSearchButton {
+    margin-left: -30px;
+}
+
+.topbar {
+    margin: 0;
+}
+
+.secbod {
+    width: 375px;
+}
+
+.insecbod p {
+    font-size: 40px;
+}
+
+.container {
+    margin: 0 0 70px 0;
+}
+
+.batch {
+    margin-left: 4px;
+}
+
+#outer a img {
+    width: 350px;
+}
+
+#inner {
+    height: 120px;
+    width: 300px;
+    margin: 0 0 0 -145px;
+}
+
+#rrcol{
+    font-size: 15px;
+}
+
+#text{
+    font-size: 14px;
+    margin: 10px 0 10px 7px;
+}
+
+#authorsj {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container-md {
+    margin: 50px 0 0 0;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 0;
+}
+
+.friedrice {
+    margin: 0;
+}
+
+.friedrice img {
+    margin-left: 10px;
+    width: 180px;
+    height: 200px;
+}
+
+#rround {
+    margin-left: -60px;
+}
+
+#authorss {
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+.jollofrice {
+    margin: 0;
+}
+
+.jollofrice img {
+    margin-left: 10px;
+    width: 180px;
+    height: 200px;
+}
+
+#recround {
+    margin-left: -40px;
+}
+
+#texts {
+    margin-left: 16px;
+}
+
+#authorsp {
+    margin-top: 10px;
+    margin-left: -109px;
+}
+
+#insecond {
+    position: absolute;
+    width: 190px;
+    height: 120px;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 50px 5px;
+    background-color: white;
+}
+
+.container-lg {
+    margin: 0;
+}
+
+.fourthbod {
+        display: flex;
+        justify-content: center;
+        margin-left: 125px;
+}
+
+#TMPR img {
+    width: 300px;
+    height: 350px;
+    margin-left: 150px;
+}
+
+#TBG {
+    margin: 0 0 250px -20px;
+}
+
+#inTBG {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.container-lg {
+    margin: 0;
+}
+
+.fifthbod {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.notes a span {
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.osoh p a {
+    font-size: 14px;
+}
+
+.all_container {
+    height: 200px;
+    width: 425px;
+    flex-direction: column;
+}
+
+.container-xxl {
+    height: 300px; 
+}
+
+#writing {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.email_box {
+    margin-left: 90px;
+}
+
+.email_box form input {
+    width: 180px;
+    font-size: 13px;
+}
+
+.email_box form button {
+    font-size: 15px;
+}
+
+.container-sm {
+    margin-top: 50px;
+}
+
+#fof img {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 370px;
+}
+
+#gof {
+    margin-bottom: -10px;
+    margin-left: -100px;
+}
+
+#hof {
+    margin-bottom: -320px;
+    margin-left: -210px;
+    color: black;
+    background: white;
+}
+
+#pbank {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#pbankwriting {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+#polbank {
+    margin-left: 35px;
+}
+
+#polbank a {
+    color: black;
+    font-size: 20px;
+}
+
+.secfoot {
+    width: 600px;
+    height: 200px;
+    margin-top: 350px;
+}
+
+.links h3 {
+    margin: 0 2px 15px -250px;
+    font-size: 24px;
+}
+
+.links ul {
+    margin: 0 0 10px -280px;
+    display: flex;
+    flex-direction: row;
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+.sitemap {
+    display: none;
+}
+
+.thirfoot {
+    width: 600px;
+    height: 450px;
+}
+
+.tdw h4 {
+    font-size: 18px;
+    margin: 30px 0 0 -260px;
+}
+
+.box {
+    margin: 90px 0 80px -106px;
+}
+
+.drop {
+    width: 230px;
+    padding: 5px 5px;
+    margin: 30px 0 30px 0;
+}
+
+.cook {
+    margin-left: -180px;
+}
+
+.copyright p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.batchdivider {
+    display: block;
+}
+
+.fifthbod hr {
+    display: none;
+}
+
+.osoh p a img {
+    display: none;
+}
+
+.one {
+    display: none;
+}
+
+.topbar {
+    display: none;
+}
+
+.afidivider {
+    display: none;
+}
+
+#notlink {
+    display: none;
+}
+
+.followlinks {
+    display: none;
+}
+
+.firfoot {
+    display: none;
+}
+
+.tdrs ul {
+    display: none;
+}
+
 }
 
 @media screen and (max-width: 425px) {
@@ -1198,6 +1535,377 @@ h5 {
     display: none;
 }
 
+}
+
+@media screen and (max-width: 768px) {
+    
+.heart {
+        margin-left: 280px;
+    }
+    
+.tipologo {
+        font-size: 20px;
+        margin-left: -645px;
+    }
+    
+#openSearchButton {
+        margin-left: -10px;
+    }
+    
+.topbar {
+        margin: 0;
+    }
+
+.secbod {
+        width: 768px;
+    }
+    
+.insecbod p {
+        font-size: 50px;
+    }
+    
+.container {
+        margin: 30px 0 70px 30px;
+    }
+    
+.batch {
+        margin-left: 4px;
+    }
+    
+#outer a img {
+        width: 550px;
+    }
+    
+#inner {
+        height: 120px;
+        width: 450px;
+        margin-left: -220px;
+    }
+    
+#rrcol{
+        font-size: 18px;
+    }
+    
+#text{
+        font-size: 18px;
+        margin: 10px 0 10px 50px;
+    }
+    
+#authorsj {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+.container-md {
+    margin: 50px 0 0 0;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 0;
+}
+
+.friedrice {
+    margin-bottom: 10px;
+}
+
+.friedrice img {
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+#rround {
+    font-size: 22px;
+    margin-left: -80px;
+}
+
+#afi {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+#authorss {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -140px;
+}
+
+.jollofrice {
+    margin-top: 30px;
+}
+
+.jollofrice img {
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+#recround {
+    font-size: 22px;
+    margin-left: -60px;
+}
+
+#texts {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+#authorsp {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+#insecond {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 30px 30px;
+    background-color: white;
+}
+
+.containdivider {
+    margin: 100px 40px;
+}
+
+.container-lg {
+    margin: 0;
+}
+
+.fourthbod {
+        display: flex;
+        justify-content: center;
+        margin-left: 250px;
+}
+
+#TMPR img {
+    width: 700px;
+    height: 500px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+#TBG {
+    margin: 0 0 470px -20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;;
+}
+
+#inTBG {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.container-lg {
+    margin: 0;
+}
+
+.fifthbod {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.notes a span {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.notes p a {
+    font-size: 19px;
+}
+
+.osoh p a {
+    font-size: 22px;
+    text-align: center;
+}
+
+.all_container {
+    height: 200px;
+    width: 768px;
+    flex-direction: column;
+}
+
+#writing {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.email_box {
+    margin-left: 240px;
+}
+
+.email_box form input {
+    width: 220px;
+    font-size: 16px;
+}
+
+.email_box form button {
+    font-size: 17px;
+}
+
+.container-sm {
+    margin-top: 60px;
+}
+
+#fof img {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 600px;
+}
+
+#gof {
+    margin-bottom: -20px;
+    margin-left: -150px;
+    width: 300px;
+    height: 50px;
+}
+
+#gof p {
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+#hof {
+    width: 450px;
+    height: 390px;
+    margin-bottom: -420px;
+    margin-left: -220px;
+    color: black;
+    background: white;
+}
+
+#pbank {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#pbankwriting {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+#polbank {
+    margin-left: 35px;
+}
+
+#polbank a {
+    color: black;
+    font-size: 22px;
+}
+
+.secfoot {
+    height: 200px;
+    margin-top: 380px;
+}
+
+.links h3 {
+    margin: 0 2px 15px -250px;
+    font-size: 24px;
+}
+
+.links ul {
+    margin: 0 0 10px -280px;
+    display: flex;
+    flex-direction: row;
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+.sitemap {
+    display: none;
+}
+
+.thirfoot {
+    height: 600px;
+}
+
+.tdw h4 {
+    font-size: 24px;
+    margin: 30px 0 0 -260px;
+}
+
+.box {
+    margin: 90px 0 80px -106px;
+}
+
+.drop {
+    width: 280px;
+    height: 60px;
+    padding: 5px 5px;
+    margin: 30px 0 50px 0;
+    font-size: 20px;
+}
+
+.cook {
+    margin-left: -180px;
+}
+
+.covered-button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.copyright p {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.batchdivider {
+    display: block;
+}
+
+.one {
+        display: none;
+}
+
+.fifthbod hr {
+    display: none;
+}
+
+.osoh p a img {
+    display: none;
+}
+    
+.topbar {
+        display: none;
+}
+    
+.afidivider {
+        display: none;
+}
+    
+#notlink {
+        display: none;
+    }
+    
+.followlinks {
+        display: none;
+}
+    
+.firfoot {
+        display: none;
+}
+    
+.tdrs ul {
+        display: none;
+}
 }
 
 .nav {
