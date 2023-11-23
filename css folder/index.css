@@ -1256,6 +1256,8 @@ html {
     #pbank {
         font-size: 26px;
         margin-left: 10px;
+        color: white;
+        margin-top: 40px;
     }
     
     #pbankwriting {
@@ -1270,6 +1272,7 @@ html {
     
     #polbank a {
         font-size: 30px;
+        color: white;
     }
     
     .secfoot {
@@ -1357,6 +1360,348 @@ html {
 
     }
 
+@media screen and (min-width: 1024px) {
+        
+        .hearts {
+                margin-left: 380px;
+            }
+            
+        .tipologo {
+                font-size: 25px;
+                margin-left: -390px;
+            }
+    
+        .offcanvas {
+                width: 400px;
+            }
+            
+        .insecbod p {
+                font-size: 80px;
+            }
+    
+        .advsea a {
+                font-size: 20px;
+            }
+            
+        .container {
+                margin: 30px 0 70px 30px;
+            }
+            
+        #outer a img {
+                width: 550px;
+            }
+            
+        #inner {
+                height: 200px;
+                width: 450px;
+                margin-left: -220px;
+            }
+            
+        #rrcol{
+                font-size: 24px;
+            }
+            
+        #text{
+                font-size: 20px;
+                margin: 10px 0 20px 5px;
+            }
+            
+        #authorsj {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            
+        .container-md {
+            margin: 50px 0 0 0;
+        }
+        
+        .contain {
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+        }
+        
+        .friedrice {
+            margin-bottom: 10px;
+        }
+        
+        .friedrice img {
+            margin-left: 10px;
+            width: 300px;
+            height: 200px;
+        }
+        
+        #rround {
+            font-size: 28px;
+            margin-left: -80px;
+        }
+        
+        #afi {
+            font-size: 24px;
+            margin-left: 12px;
+        }
+        
+        #authorss {
+            font-size: 24px;
+            margin-top: 10px;
+            margin-left: -180px;
+        }
+        
+        .jollofrice {
+            margin-top: 30px;
+        }
+        
+        .jollofrice img {
+            margin-left: 10px;
+            width: 300px;
+            height: 200px;
+        }
+        
+        #recround {
+            font-size: 28px;
+            margin-left: -50px;
+        }
+        
+        #texts {
+            font-size: 24px;
+            margin-left: 12px;
+        }
+        
+        #authorsp {
+            font-size: 24px;
+            margin-top: 10px;
+            margin-left: -195px;
+        }
+        
+        #insecond {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            left: 50%;
+            bottom: 0;
+            margin: 0 0 20px -70px;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .containdivider {
+            margin: 100px 40px;
+        }
+        
+        .fourthbod {
+                display: flex;
+                justify-content: center;
+                margin-left: 5px;
+        }
+        
+        #TMPR img {
+            width: 700px;
+            height: 500px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #TBG {
+            margin: 0 0 470px -80px;
+            width: 200px;
+            height: 80px;
+            display: flex;
+            justify-content: center;;
+        }
+        
+        #inTBG {
+            margin-top: 15px;
+            font-size: 24px;
+        }
+    
+        .fifthbod {
+            flex-direction: row;
+        }
+    
+        .fifthbod hr {
+            width: 1px;
+            height: 750px;
+        }
+    
+        #notlink {
+            font-size: 20px;
+        }
+        
+        .notes a span {
+            font-size: 35px;
+        }
+        
+        .notes p a {
+            font-size: 27px;
+        }
+        
+        .osoh p a {
+            font-size: 22px;
+            text-align: center;
+        }
+    
+        .osoh p a img {
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .all_container {
+            height: 150px;
+            width: 100%;
+            flex-direction: row;
+        }
+        
+        #writing {
+            font-size: 24px;
+            text-align: center;
+            margin-left: 80px;
+            margin-right: 560px;
+        }
+        
+        .email_box {
+            margin-left: 1px;
+        }
+        
+        .email_box form input {
+            width: 280px;
+            height: 80px;
+            font-size: 24px;
+            margin-left: -450px;
+        }
+        
+        .email_box form button {
+            width: 120px;
+            height: 80px;
+            font-size: 24px;
+        }
+        
+        .container-sm {
+            margin-top: 60px;
+        }
+        
+        #fof img {
+            margin-top: 20px;
+            margin-left: 0;
+            width: 950px;
+        }
+        
+        #gof {
+            margin-bottom: 650px;
+            margin-left: -5px;
+            width: 300px;
+            height: 60px;
+        }
+        
+        #gof p {
+            font-size: 28px;
+            margin-top: 13px;
+        }
+        
+        #hof {
+            width: 450px;
+            height: 500px;
+            margin-bottom: 160px;
+            margin-left: -90px;
+        }
+        
+        #pbank {
+            font-size: 26px;
+            margin-left: 10px;
+            color: white;
+        }
+        
+        #pbankwriting {
+            font-size: 27px;
+            text-align: center;
+            margin: 0 5px;
+        }
+        
+        #polbank {
+            margin-left: 35px;
+        }
+        
+        #polbank a {
+            font-size: 30px;
+            color: white;
+        }
+        
+        .secfoot {
+            height: 400px;
+            margin-top: 600px;
+        }
+    
+        .links {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .links h3 a {
+            margin: 0 0 15px 20px;
+            font-size: 55px;
+        }
+        
+        .links ul {
+            margin: 0 0 10px 0;
+        }
+        
+        .links ul li a {
+            margin-right: 20px;
+        }
+    
+        .thirfoot {
+            height: 1200px;
+        }
+        
+        .tdw h4 {
+            font-size: 30px;
+            margin: 30px 0 0 10px;
+        }
+        
+        .box {
+            margin: 90px 0 20px 20px;
+        }
+        
+        .drop {
+            width: 350px;
+            height: 60px;
+            padding: 5px 5px;
+            margin: 30px 0 50px 0;
+            font-size: 26px;
+        }
+    
+        .tdrs {
+            display: block;
+            margin-right: 200px;
+            margin-bottom: 40px;
+        }
+    
+        .tdrs ul li a {
+        color: gray;
+        font-size: 22px;
+        }
+    
+        .tdrs ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .cook {
+            margin-left: -180px;
+        }
+        
+        .covered-button {
+            width: 300px;
+            height: 50px;
+            font-size: 30px;
+        }
+        
+        .copyright p {
+            font-size: 26px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+    }
+
 @media screen and (min-width: 1440px) {
 
     
@@ -1366,17 +1711,6 @@ html {
 
 .hearts {
     margin: 0 10px;
-}
-
-.topbar {
-    display: bloc;
-    color: gray;
-    font-size: 16px;
-    margin: 0 50px;
-}
-
-.topbar:hover {
-    color: black;
 }
 
 .tipologo {
@@ -1400,8 +1734,6 @@ html {
     font-size: 70px;
     font-weight: bolder;
 }
-
-
 
 .batch {
     display: flex;
@@ -1504,6 +1836,7 @@ html {
 }
 
 .one {
+    display: block;
     margin: 15px 200px 15px 200px
 }
 
@@ -1536,10 +1869,6 @@ html {
     height: 300px;
 }
 
-.seconddivider {
-    display: none;
-}
-
 #insecond {
     position: absolute;
     width: 300px;
@@ -1565,7 +1894,6 @@ html {
     justify-content: center;
     margin-right: 400px;
 }
-
 
 #TMPR img {
     height: 700px;
@@ -1596,6 +1924,10 @@ html {
     flex-direction: row;
 }
 
+.notes {
+    margin-left: 80px;
+}
+
 .notes a span {
     font-size: 40px;
     font-weight: bold;
@@ -1616,13 +1948,12 @@ html {
 
 .fifthbod hr {
     width: 1px; 
-    height: 550px;
+    height: 600px;
     margin: 0 20px;
 }
 
-.osoh p a {
-    color: black;
-    font-weight: bold;
+.osoh {
+    margin-right: 150px;
 }
 
 .osoh p a:hover {
@@ -1635,7 +1966,7 @@ html {
 
 .all_container {
     width: 100%;
-    height: 120px;
+    height: 140px;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -1643,29 +1974,23 @@ html {
 }
 
 #writing {
-    margin: 30px 520px 0 80px;
+    margin: 30px 520px 0 100px;
     color: white;
+    font-size: 28px;
+}
+
+.email_box form input {
+    margin-top: 30px;
+    padding: 10px 20px;
+    height: 50px;
+    width: 400px;
     font-size: 22px;
 }
 
-.email_box input {
-    margin-top: 30px;
-    border: 0;
-    outline: none;
-    padding: 10px 20px;
+.email_box form button {
     height: 50px;
-    width: 2000px;
-    font-size: 18px;
-}
-
-.email_box button {
-    background: black;
-    color: white;
-    border: none;
-    outline: none;
-    height: 50px;
-    width: 80px;
-    font-size: 18px;
+    width: 100px;
+    font-size: 22px;
 }
 
 .container-sm {
@@ -1677,8 +2002,8 @@ html {
 }
 
 #fof img {
-    width: 1100px;
-    height: 500px;
+    width: 1300px;
+    height: 800px;
 }
 
 #hof {
@@ -1687,7 +2012,7 @@ html {
     height: 500px;
     left: 50%;
     bottom: 0;
-    margin: 50px 0 10px 0;
+    margin: 50px 0 100px 170px;
     background: black;
     color: white;
 }
@@ -1727,14 +2052,18 @@ html {
 
 #gof {
     position: absolute;
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 60px;
     left: 50%;
     bottom: 0;
-    margin: 0 0 390px 110px;
+    margin: 0 0 580px 250px;
     background: white;
     color: purple;
     text-align: center;
+}
+
+#gof p {
+    font-size: 22px;
 }
 
 footer {
@@ -1811,15 +2140,6 @@ footer {
     color: white;
 }
 
-.sitemap ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.sitemap ul li a:hover {
-    text-decoration: underline;
-}
-
 .partlist {
     display: flex;
     flex-wrap: wrap;
@@ -1839,11 +2159,12 @@ footer {
     background-color: rgb(245, 62, 62);
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: 400px;
+    margin-top: 0;
 }
 
 .links {
-    margin-left: 300px;
+    margin-left: 150px;
     margin-top: 40px;
 }
 
@@ -1860,49 +2181,68 @@ footer {
 
 .sitemap {
     display: block;
-    flex-direction: wrap;
-    margin-left: 100px;
-    margin-top: 40px;
 }
 
-h5 {
+.class {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.sitemap ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sitemap ul li a:hover {
+    text-decoration: underline;
+}
+
+.sitemap ul li h5 a {
     margin-bottom: 20px;
+    font-size: 26px;
 }
 
 #head5 {
     color: white;
+    font-size: 26px;
 }
 
 .thirfoot {
     background-color: #484545;
-    height: 900px;
+    height: 500px;
 }
 
 .tdw {
-    margin-left: 300px;
+    margin-left: 180px;
     display: flex;
     justify-content: flex-start;
+    flex-direction: row;
 }
 
 .tdrs {
-    margin: 0 0 450px 0;
+    margin-top: 0;
+    margin-bottom: 280px;
+    margin-left: 150px;
+    margin-top: 40px;
     display: flex;
 }
 
 .tdw h4 {
-    margin-top: 70px;
+    margin-top: 20px;
     color: gray;
 }
 
 .tdrs ul li a {
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     color: gray;
+
 }
 
 .tdrs ul li {
-    margin-left: 4px;
-    margin-right: 4px;
     display: inline-block;
 }
 
@@ -1922,6 +2262,7 @@ h5 {
     border-style: solid gray;
     border-width: thin;
     padding: 5px 8px;
+    margin-bottom: 10px;
   }
 
 .copyright a {
@@ -1934,10 +2275,10 @@ h5 {
 }
 
 .copyright p {
-    font-size: 14px;
+    font-size: 18px;
     color: gray;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .tiplinks ul li a {
@@ -1946,85 +2287,13 @@ h5 {
 }
 
 .box {
-    position: relative;
-    width: 250px;
+    width: 300px;
     height: 250px;
-    margin: 60px 30px 110px;
+    margin: 20px 30px 10px;
 }
 
 .drop {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    border-style: solid;
-    border-width: thin;
-    background: #484545;
-    color: gray;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.drop .left-icon,
-.drop .right-icon {
-    position: relative;
-    display: inline-block;
-    width: 12px;
-    height: 6px;
-    background: gray;
-    border-radius: 40px;
-    transition: .1s;
-}
-
-.drop .left-icon {
-    left: 7px;
-    transform: rotate(45deg);
-}
-
-.drop.active .left-icon {
-    transform: rotate(135deg);
-}
-
-.drop .right-icon {
-    transform: rotate(-45deg);
-}
-
-.drop.active .right-icon {
-    transform: rotate(-135deg);
-}
-
-.drop .items {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 160px;
-    border-color: gray;
-
-    margin-top: -69px;
-    overflow: hidden;
-} 
-
-.drop .items a {
-    position: relative;
-    top: 100%; 
-    display: flex;
-    font-size: 15px;
-    background: #484545;
-    color: grey;
-    text-decoration: none;
-    padding: 0 20px;
-    
-}
-
-.drop.active .items a {
-    top: 0;
-}
-
-.drop .items a:hover {
-    text-decoration: underline;
+    font-size: 20px;
 }
 
 }
